@@ -7,4 +7,6 @@ class Card:
         self.rank = rank
         self.suit = suit
 
-    
+    def return_card(self):
+        return f"{self.rank} of {self.suit}"
+
